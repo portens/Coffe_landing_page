@@ -64,3 +64,127 @@
 .portensa2{
     margin: 10px;
 }
+.portens2{
+    width: 100vw;
+    height: 150vh;
+}
+.portens2_1{
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.portens2_1_0{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.portens2_1_1{
+    width: 30vw;
+    height: 80vh;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
+    margin-top: 200px;
+}
+.portens2_1_1_1{
+    width: 30vw;
+    height: 50vh;
+    background-image: url("Images/Img1.png");
+    background-size: cover;
+
+}
+.portens2_1_1_2{
+    text-align: left;
+    padding: 10px;
+}
+.portensa2 {
+    text-decoration: none;
+    color: #FF4B32;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+}
+.portens2_1_2{
+    width: 30vw;
+    height: 80vh;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
+    margin-top: 200px;
+}
+.portens2_1_2_1{
+    width: 30vw;
+    height: 50vh;
+    background-image: url("Images/Img2.png");
+    background-size: cover;
+
+}
+.portens2_1_2_2{
+    text-align: left;
+    padding: 10px;
+}
+.portens2_1_3{
+    width: 30vw;
+    height: 80vh;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0px rgba(0, 0, 0, 0.20);
+    margin-top: 200px;
+}
+.portens2_1_3_1{
+    width: 30vw;
+    height: 50vh;
+    background-image: url("Images/Img3.png");
+    background-size: cover;
+
+}
+.portens2_1_3_2{
+    text-align: left;
+    padding: 10px;
+}
+.coffe_beans{
+    padding-left: 10px;
+    color: #000;
+    /* Heading / Base */
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 41.6px */
+}
+.coffe_beans_text{
+    padding: 10px;
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+.update_news{
+    color: #000;
+    text-align: center;
+    /* Subtitle / Base */
+    font-family: "Josefin Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+}
+.update_news_text{
+    color: #000;
+    text-align: center;
+    /* Body / Base */
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
