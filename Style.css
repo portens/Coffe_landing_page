@@ -1,0 +1,148 @@
+
+/*-------------------------------------Global___________________________________*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+}
+
+/*---------------------------------D00MSKY section-------------------------------*/
+
+#D-width{
+    width: 100%;
+    justify-content: center;
+
+}
+.D-flex{
+    display: flex;
+}
+#D-BG{
+    width: 1440px;
+    height: 71.19vh;
+    background-image: url("D-assets/coffe.png");
+    background-size: cover;
+}
+#D-cup{
+    width: 50px;
+    height: 50px;
+    background-image: url("D-assets/coffee-cup (1) 1.svg");
+    background-size: cover;
+    position: relative;
+    top: 5px;
+}
+header{
+    height: 10vh;
+    justify-content: space-between;
+    align-items: end;
+    padding-right: 25%;
+    padding-left: 25%;
+
+}
+#D-cup\&coffee{
+    width: 18%;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+    top: 3px;
+}
+a{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+
+#D-menu{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+#D-menu:hover{
+    color: snow;
+    opacity: 1;
+    transition: 0.3s;
+    transform: scale(110%);
+}
+#D-coffee{
+    color: #FF4B32;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+}
+#D-home{
+    color: #FF4B32;
+    font-family: "Open Sans", sans-serif;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+#D-first{
+    width: 100%;
+    color: #FFF;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+#D-second{
+    width: 100%;
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.8;
+}
+#D-buyButton{
+    width: 30%;
+    height: 45px;
+    border-radius: 5px;
+    background: #FF4B32;
+}
+#D-buyButton:hover{
+    transform: scale(105%);
+    transition: 0.5s;
+    background: #e0270d;
+}
+#D-buttonText{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+#D-align{
+    width: 35%;
+    height: 42vh;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 8%;
+    top: 10vh;
+
+}
+#D-home:hover{
+    color: snow;
+    transition: 0.3s;
+    transform: scale(110%);
+}
+a:hover{
+    color: snow;
+    opacity: 1;
+    transition: 0.3s;
+    transform: scale(110%);
+}
