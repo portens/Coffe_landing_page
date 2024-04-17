@@ -146,3 +146,137 @@ a:hover{
     transition: 0.3s;
     transform: scale(110%);
 }
+
+/*---------------------------------Inkorlet section-------------------------------*/
+/*----------------------------------text-----------------------------*/
+.i_first{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 6.45px;
+    margin-top: 13.67vh;
+    margin-left: 147px;
+}
+.i_second{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 1.95vh;
+    margin-left: 147px;
+    opacity: 0.7;
+}
+/*------------------------------------перші фото----------------------------*/
+.i_coffee{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.86vh;
+}
+.i_coffee_1{
+    width: 300px;
+    margin-left: 147px;
+}
+.i_coffee_2{
+    width: 300px;
+}
+.i_coffee_3{
+    width: 300px;
+    margin-right: 147px;
+}
+.i_img1{
+    width: 300px;
+    height: 265px;
+}
+.i_img2{
+    width: 300px;
+    height: 265px;
+}
+.i_img3{
+    width: 300px;
+    height: 265px;
+}
+.i_coffee1_p1, .i_coffee2_p1, .i_coffee3_p1{
+    color: #0C0D0C;
+
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-top: 3.42vh;
+}
+.i_coffee1_p2, .i_coffee2_p2, .i_coffee3_p2{
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-top: 0.98vh;
+}
+.i_coffee1_p3, .i_coffee2_p3, .i_coffee3_p3{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.6;
+    margin-top: 1.46vh;
+}
+/*------------------------------------------другі фото-----------------------*/
+.i_third{
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-top: 22.18vh;
+}
+.i_fourth{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-top: 1.95vh;
+}
+.i_coffee45{
+
+}
+.i_coffee4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.86vh;
+}
+.i_coffee5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.93vh;
+}
+.i_img4, .i_img7{
+    margin-left: 147px;
+}
+.i_img6, .i_img9{
+    margin-right: 147px;
+}
+.i_fifth{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 7.32vh;
+}
