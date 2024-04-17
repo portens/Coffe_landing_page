@@ -5,25 +5,30 @@
     <title>Title</title>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-    </style>
-
-    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
         .A-Footer{
             Width: 100%;
             Height: 40vh;
             background-image: url("A-assets/Footer.png");
             background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0;
+
         }
 
         .A-flex{
+            Width: 100%;
+            Height: 30vh;
             display: grid;
-            grid-template-rows:30% 30% 15%;
+            grid-template-rows:30fr 30fr 15fr;
             grid-template-columns:400fr 300fr 300fr 500fr;
-            border:1px solid orangered;
-            color:orangered;
+            margin-left: 144px;
+            margin-top: 90px;
 
         }
 
@@ -34,6 +39,12 @@
             background-size: cover;
             position: relative;
             top: 5px;
+            color: #FF4B32;
+            font-family: "Josefin Sans";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 130%;
 
         }
 
@@ -103,6 +114,19 @@
             font-weight: 400;
             line-height: 150%;
         }
+
+        .A-Footer-2{
+            color: var(--white, #FFF);
+            text-align: center;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            Width: 100%;
+            Height: 10vh;
+
+        }
     </style>
 
 
@@ -111,20 +135,24 @@
 
 <div class="A-Footer">
     <div class="A-flex">
-        <header class="A_h1"></header>
-        <header class="A_h2"><span>CATEGORIES</span></header>
-        <header class="A_h2"><span>INFORMATION</span></header>
-        <header class="A_h2"><span>FOLLOW US</span></header>
-        <section class="A_s1"><span>Creating a catchy tagline coffee shop business growth.</span></section>
-        <section class="A_s2"><span>Ashley Szekeres Art</span>
-                              <span>Merchandise</span></section>
-        <section class="A_s2"><span>Coffee Beans</span>
-                                <span>Contact Us</span></section>
+        <header class="A_h1"><p>Coffee</p></header>
+        <header class="A_h2"><p>CATEGORIES</p> </header>
+        <header class="A_h2"><p>INFORMATION</p></header>
+        <header class="A_h2"><p>FOLLOW US</p></header>
+        <section class="A_s1"><p>Creating a catchy tagline coffee shop business growth.</p></section>
+        <section class="A_s2"><p>Ashley Szekeres Art</p>
+                              <p>Merchandise</p></section>
+        <section class="A_s2"><p>Coffee Beans</p>
+                                <p>Contact Us</p></section>
         <section class="A_s3"><img src="A-assets/Socia_media.png" alt="Social media"></section>
-        <footer class="A_f1"><img src="A-assets/telephone_1.png" alt="telephone"><span class="A_f1_1">+8801742-527137</span></footer>
-        <footer class="A_f2"><span>Gift Certificates</span></footer>
-        <footer class="A_f3"><span>Blog</span></footer>
+        <footer class="A_f1"><img src="A-assets/telephone_1.png" alt="telephone"><p class="A_f1_1">+8801742-527137</p></footer>
+        <footer class="A_f2"><p>Gift Certificates</p></footer>
+        <footer class="A_f3"><p>Blog</p></footer>
         <footer class="A_f4"></footer>
+    </div>
+
+    <div class="A-Footer-2"><p>Copyright © 2021 Coffee, All rights reserved. Present by MoxCreative.
+</p>
     </div>
 
 
